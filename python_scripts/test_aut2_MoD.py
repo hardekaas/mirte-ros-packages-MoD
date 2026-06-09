@@ -124,7 +124,7 @@ class BicycleBEPTest(Node):
 
     def drive_to_target(self, target):
         c_x, c_y = target[0], target[1]
-        rate_hz = 30.0  
+        rate_hz = 50.0  
         period = 1.0 / rate_hz
 
         # Loop initialization metrics
